@@ -17,6 +17,7 @@ This repository contains my understanding about RISC V and CPU working
 4. Write back
    -Done by CU
 ## Registers
+-They are tiny storage locations inside CPU
 - Fetching data from register is 100x faster than fetching data from RAM
 - While RAM contains both instructions and data, registers store data only
 # RISCV
@@ -45,7 +46,7 @@ main,loop, end are the labels
 ### ecall instruction
 Terminates the program
 
-### Connection to CPU Architecture
+### Connection of this project to CPU Architecture
 1. Control Unit decodes each instruction
 2. ALU performs the addition ( adder )
 3. Use of registers
