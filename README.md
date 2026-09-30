@@ -2,8 +2,8 @@
 This repository contains my understanding about RISC V and CPU working
 # Working of CPU
 ## CPU
-1. ALU  
-2. CU
+1. ALU ( Arithmatic logic unit ) 
+2. CU ( control unit )
 3. Registers
   -RAM
 ## Pipelining Process
