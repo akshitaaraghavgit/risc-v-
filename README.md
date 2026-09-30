@@ -73,6 +73,14 @@ data
 - Physical address-where the data actually gets stored inside RAM
 ## Address Translation-
 - MMU (Memory Management Unit)-it takes the virtual address the program used and produces the real physical address that actually gets sent to RAM
+# RISC-V Register Set
+- RISC-V has 32 general-purpose registers (x0-x31) plus special registers
+## The Special x0 Register
+- Register x0 is hardwired to always contain zero
+### Uses of x0
+<img width="770" height="457" alt="Screenshot 2026-09-30 233019" src="https://github.com/user-attachments/assets/a221b9f9-d856-4fda-885a-dde0a4fea3e7" />
+
+  
   
  
 
