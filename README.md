@@ -50,6 +50,31 @@ Terminates the program
 1. Control Unit decodes each instruction
 2. ALU performs the addition ( adder )
 3. Use of registers
+# Memory Hierarchy
+- A computer has several kinds of memory stacked in layers.
+- Can be understood by thinking of a pyramid-the smallest, fastest memory sits at the top, closest to the CPU; the biggest, slowest memory sits at the bottom, furthest away.
+## Why This Hierarchy Exists?
+- Fast memory is expensive and takes chip area
+- Cheap memory is slow
+-  Programs need lots of data but only use small portions actively
+## Solution: 
+- Use small amounts of fast memory for active data, larger amounts of slower
+memory for less active data.
+- CPU Registers-Currently active data
+- L1 Cache-Recently used instructions/-
+data
+- L2 Cache-Less recently used data
+- L3 Cache-Shared cache between cores
+- Main memory-Program storage
+- ssd-Long-term file storage
+- hard drive-bulk storage
+# Virtual Memory
+- Virtual address-the fake address every individual uses
+- Physical address-where the data actually gets stored inside RAM
+## Address Translation-
+- MMU (Memory Management Unit)-it takes the virtual address the program used and produces the real physical address that actually gets sent to RAM
+  
+ 
 
 
 
